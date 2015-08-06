@@ -31,5 +31,5 @@ function mascotMaker(length) {
 }
 
 function newMascot() {
-	return document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length);
+	return document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
 }
