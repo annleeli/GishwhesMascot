@@ -20,7 +20,7 @@ Lla,bug
 Im,pala
 Pega,sus
 Cerber,rus
-Pheo,nix
+Pheoni,nix
 Wen,digo
 Zom,fish
 Dra,gon
