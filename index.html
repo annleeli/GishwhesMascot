@@ -7,7 +7,21 @@
 		
 		<script type="text/javascript">
 			function mascotMaker(length) {
-				return Math.floor((Math.random() * length));
+				var rand1 = Math.floor((Math.random() * length));
+
+				while (true) {
+					var rand2 = Math.floor((Math.random() * length));
+
+					if (rand1 != rand2) {
+						break;
+					}
+				}
+
+				return rand1 + rand2; 
+			}
+
+			function newMascot() {
+				return document.getElementById('mascot').innerHTML=mascotMaker(25);
 			}
 		</script>
 	</head>
@@ -24,7 +38,7 @@
 		<h2 id="mascot">Insert Mascot Here</h2>
 
 		<p>
-			<button type="button" class="btn btn-2 btn-2d" onclick="document.getElementById('mascot').innerHTML=mascotMaker(25)">GISHWHES ME</button>
+			<button type="button" class="btn btn-2 btn-2d" onclick="newMascot()">GISHWHES ME</button>
 		</p>
 				
 	</body>
