@@ -16,12 +16,12 @@ Goo,oose,Goose
 Fla,mingo,Flamingo
 Porcu,pine,Porcupine
 Tig,ger,Tiger
-Lla,bug,Llama/Bug
+Lla,bug,Llama,Bug
 Im,pala,Impala
 Pega,sus,Pegasus
 Cerber,rus,Cerberus
 Pheoni,nix,Pheonix
 Wen,digo,Wendigo
-Zom,fish,Zombie/Fish
+Zom,fish,Zombie,Fish
 Dra,gon,Dragon
 Skun,unk,Skunk
