@@ -6,6 +6,23 @@
 		<link rel="stylesheet" type="text/css" href="component.css" />
 		
 		<script type="text/javascript">
+			var nameArray = [];
+			  var request = new XMLHttpRequest();
+			  request.onload = function (B) { return function () {
+
+			  	var fileLines = this.responseText.split('\n');
+			  	console.log(fileLines);
+			  	for (var i = fileLines.length - 1; i >= 0; i--) {
+			  		fileLines[i] = fileLines[i].split(',');
+			  	};
+			  	nameArray = fileLines;
+
+			  }}(this);
+
+			  request.open('GET', 'names.txt');
+			  request.send();
+
+
 			function mascotMaker(length) {
 				var rand1 = Math.floor((Math.random() * length));
 
@@ -16,7 +33,7 @@
 						break;
 					}
 				}
-
+				return nameArray[rand1][0] + nameArray[rand2][1];
 				return rand1 + rand2; 
 			}
 
