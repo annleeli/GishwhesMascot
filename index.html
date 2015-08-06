@@ -5,6 +5,11 @@
 		<link rel="stylesheet" type="text/css" href="default.css" />
 		<link rel="stylesheet" type="text/css" href="component.css" />
 		
+		<script type="text/javascript">
+			function mascotMaker(length) {
+				return Math.floor((Math.random() * length));
+			}
+		</script>
 	</head>
 
 	<body>
@@ -16,10 +21,10 @@
 			Make a gishwhes mascot
 		</h1>
 
-		<h2>Insert Mascot Here</h2>
+		<h2 id="mascot">Insert Mascot Here</h2>
 
 		<p>
-			<button class="btn btn-2 btn-2d">GISHWHES ME</button>
+			<button type="button" class="btn btn-2 btn-2d" onclick="document.getElementById('mascot').innerHTML=mascotMaker(25)">GISHWHES ME</button>
 		</p>
 				
 	</body>
