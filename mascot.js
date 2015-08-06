@@ -33,7 +33,9 @@ function mascotMaker(length) {
 
 function mascotDesc() {
 	var front = nameArray[rand1][2];
-	return front;
+	var back = nameArray[rand2][2];
+
+	return front + " + " + back;
 }
 
 function newMascot() {
