@@ -5,7 +5,7 @@ Cat,cat
 Ele,phant
 Croco,dile
 Cent,taur
-Peng,Guin
+Peng,guin
 Cater,pillar
 Scor,pion 
 Dol,phin
