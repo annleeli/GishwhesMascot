@@ -1,0 +1,2 @@
+# GishwhesMascot
+Mascot Generator
