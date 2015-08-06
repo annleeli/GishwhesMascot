@@ -15,13 +15,13 @@ Gor,rilla
 Goo,oose
 Fla,mingo
 Porcu,pine
-Ti,ger
-Lla,ma
+Tig,ger
+Lla,bug
 Im,pala
 Pega,sus
 Cerber,rus
 Pheo,nix
 Wen,digo
-Zom,bie
+Zom,fish
 Dra,gon
-Sku,unk
+Skun,unk
