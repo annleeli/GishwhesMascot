@@ -19,7 +19,7 @@ Ti,ger
 Lla,ma
 Im,pala
 Pega,sus
-Cerber,rus
+Cerber,berus
 Pheo,nix
 Wen,digo
 Zom,bie
