@@ -1,5 +1,5 @@
 Alli,gator,Alligator
-Bull,frog,Bullfrog
+Bull,frog,Bull,frog
 Octo,pus,Octopus
 Cat,cat,Cat
 Ele,phant,Elephant

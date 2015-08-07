@@ -1,6 +1,6 @@
 var nameArray = [];
-var rand1=99, rand2=99; 
-var old1=99, old2=99;
+var rand1, rand2; 
+var old1, old2;
 var request = new XMLHttpRequest();
 request.onload = function (B) { 
 	return function () {
@@ -34,6 +34,7 @@ function mascotMaker(length) {
 }
 
 function mascotDesc() {
+	console.log("rand1="+rand1);
 	var front = nameArray[rand1][2];
 	var back = nameArray[rand2][3] || nameArray[rand2][2];
 
@@ -41,6 +42,13 @@ function mascotDesc() {
 }
 
 function newMascot() {
-	document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
-	document.getElementById('desc').innerHTML=mascotDesc();
+	$('#mascot').fadeOut(function(){
+		document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
+		$('#mascot').fadeIn();
+				$('#desc').fadeIn();
+	});
+	$('#desc').fadeOut(function(){
+		document.getElementById('desc').innerHTML=mascotDesc();
+		$('#desc').fadeIn();
+	});
 }
