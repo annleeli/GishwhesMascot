@@ -23,6 +23,5 @@ Pega,sus,Pegasus
 Cerber,berus,Cerberus
 Pheoni,nix,Pheonix
 Wen,digo,Wendigo
-Zom,zombie,Zombie
 Dra,gon,Dragon
 Skun,unk,Skunk
