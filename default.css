@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(http://fonts.googleapis.com/css?family=Cutive);
 @import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text);
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -17,7 +18,7 @@ h1 {
 }
 
 #mascot {
-	font-family: 'Avro', 'Cutive', 'Slabo 27px', serif;
+	font-family: 'Noticia Text','Avro', 'Cutive', 'Slabo 27px', serif;
 	font-size: 70px;
 	margin-bottom: 10px;
 }
