@@ -1,12 +1,11 @@
 var nameArray = [];
-var rand1=99, rand2=99; 
-var old1=99, old2=99;
+var rand1, rand2; 
+var old1, old2;
 var request = new XMLHttpRequest();
 request.onload = function (B) { 
 	return function () {
 
 		var fileLines = this.responseText.split('\n');
-		console.log(fileLines);
 		for (var i = fileLines.length - 1; i >= 0; i--) {
 			fileLines[i] = fileLines[i].split(',');
 		};
@@ -41,6 +40,13 @@ function mascotDesc() {
 }
 
 function newMascot() {
-	document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
-	document.getElementById('desc').innerHTML=mascotDesc();
+	$('#mascot').fadeOut(function(){
+		document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
+		$('#mascot').fadeIn();
+				$('#desc').fadeIn();
+	});
+	$('#desc').fadeOut(function(){
+		document.getElementById('desc').innerHTML=mascotDesc();
+		$('#desc').fadeIn();
+	});
 }
