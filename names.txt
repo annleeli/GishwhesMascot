@@ -1,5 +1,5 @@
 Alli,gator,Alligator
-Bull,frog,Bull,Frog
+Bull,frog,Bullfrog
 Octo,pus,Octopus
 Cat,cat,Cat
 Ele,phant,Elephant
@@ -16,11 +16,12 @@ Goo,oose,Goose
 Fla,mingo,Flamingo
 Porcu,pine,Porcupine
 Tig,ger,Tiger
-Lla,llama,Llama
+Lla,bug,Llama,Bug
 Im,pala,Impala
 Pega,sus,Pegasus
-Cerber,berus,Cerberus
+Cerber,rus,Cerberus
 Pheoni,nix,Pheonix
 Wen,digo,Wendigo
+Zom,fish,Zombie,Fish
 Dra,gon,Dragon
 Skun,unk,Skunk
