@@ -1,5 +1,6 @@
 var nameArray = [];
-var rand1, rand2; 
+var rand1=99, rand2=99; 
+var old1=99, old2=99;
 var request = new XMLHttpRequest();
 request.onload = function (B) { 
 	return function () {
@@ -18,15 +19,16 @@ request.send();
 
 
 function mascotMaker(length) {
-	rand1 = Math.floor((Math.random() * length));
-
-	while (true) {
-		rand2 = Math.floor((Math.random() * length));
-
-		if (rand1 != rand2) {
-			break;
-		}
+	while (rand1 == old1){
+		rand1 = Math.floor((Math.random() * length));
 	}
+
+	while (rand1 == rand2 || rand2 == old2){
+		rand2 = Math.floor((Math.random() * length));
+	}
+	
+	old1 = rand1;
+	old2 = rand2;
 	console.log(nameArray[rand1][0] + nameArray[rand2][1] + " ("+rand1+","+rand2+")");
 	return nameArray[rand1][0] + nameArray[rand2][1];
 }
