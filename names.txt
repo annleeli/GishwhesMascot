@@ -1,32 +1,4 @@
-<<<<<<< HEAD
-Alli,gator
-Bull,frog
-Octo,pus
-Cat,cat
-Ele,phant
-Croco,dile
-Cent,taur
-Peng,guin
-Cater,pillar
-Scor,pion 
-Dol,phin
-Hedge,hog
-Hippo,potamus
-Gor,rilla
-Goo,oose
-Fla,mingo
-Porcu,pine
-Ti,ger
-Lla,ma
-Im,pala
-Pega,sus
-Cerber,berus
-Pheo,nix
-Wen,digo
-Zom,bie
-Dra,gon
-Sku,unk
-=======
+
 Alli,gator,Alligator
 Bull,bull,Bull
 Frog,frog,Frog
@@ -52,7 +24,5 @@ Pega,sus,Pegasus
 Cerber,berus,Cerberus
 Pheoni,nix,Pheonix
 Wen,digo,Wendigo
-Zom,zombie,Zombie
 Dra,gon,Dragon
 Skun,unk,Skunk
->>>>>>> origin/gh-pages
