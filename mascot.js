@@ -27,7 +27,7 @@ function mascotMaker(length) {
 			break;
 		}
 	}
-	console.log("("+rand1+","+rand2+")");
+	console.log(nameArray[rand1][0] + nameArray[rand2][1] + " ("+rand1+","+rand2+")");
 	return nameArray[rand1][0] + nameArray[rand2][1];
 }
 
