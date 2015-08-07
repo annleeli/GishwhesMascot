@@ -1,4 +1,5 @@
 var nameArray = [];
+var rand1, rand2; 
 var request = new XMLHttpRequest();
 request.onload = function (B) { 
 	return function () {
@@ -17,10 +18,10 @@ request.send();
 
 
 function mascotMaker(length) {
-	var rand1 = Math.floor((Math.random() * length));
+	rand1 = Math.floor((Math.random() * length));
 
 	while (true) {
-		var rand2 = Math.floor((Math.random() * length));
+		rand2 = Math.floor((Math.random() * length));
 
 		if (rand1 != rand2) {
 			break;
@@ -30,6 +31,14 @@ function mascotMaker(length) {
 	return nameArray[rand1][0] + nameArray[rand2][1];
 }
 
+function mascotDesc() {
+	var front = nameArray[rand1][2];
+	var back = nameArray[rand2][2];
+
+	return front + " + " + back;
+}
+
 function newMascot() {
-	return document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
+	document.getElementById('mascot').innerHTML=mascotMaker(nameArray.length-1);
+	document.getElementById('desc').innerHTML=mascotDesc();
 }

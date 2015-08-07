@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Alli,gator
 Bull,frog
 Octo,pus
@@ -25,3 +26,33 @@ Wen,digo
 Zom,bie
 Dra,gon
 Sku,unk
+=======
+Alli,gator,Alligator
+Bull,bull,Bull
+Frog,frog,Frog
+Octo,pus,Octopus
+Cat,cat,Cat
+Ele,phant,Elephant
+Croco,dile,Crocodile
+Cent,taur,Centaur
+Peng,guin,Penguin
+Cater,pillar,Caterpillar
+Scor,pion,Scorpion
+Dol,phin,Dolphin
+Hedge,hog,Hedgehog
+Hippo,potamus,Hippo
+Gor,rilla,Gorilla
+Goo,oose,Goose
+Fla,mingo,Flamingo
+Porcu,pine,Porcupine
+Tig,ger,Tiger
+Lla,llama,Llama
+Im,pala,Impala
+Pega,sus,Pegasus
+Cerber,berus,Cerberus
+Pheoni,nix,Pheonix
+Wen,digo,Wendigo
+Zom,zombie,Zombie
+Dra,gon,Dragon
+Skun,unk,Skunk
+>>>>>>> origin/gh-pages
