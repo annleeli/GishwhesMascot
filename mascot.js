@@ -26,7 +26,7 @@ function mascotMaker(length) {
 	while (rand1 == rand2 || rand2 == old2){
 		rand2 = Math.floor((Math.random() * length));
 	}
-	
+
 	old1 = rand1;
 	old2 = rand2;
 	console.log(nameArray[rand1][0] + nameArray[rand2][1] + " ("+rand1+","+rand2+")");
@@ -35,7 +35,7 @@ function mascotMaker(length) {
 
 function mascotDesc() {
 	var front = nameArray[rand1][2];
-	var back = nameArray[rand2][2];
+	var back = nameArray[rand2][3] || nameArray[rand2][2];
 
 	return front + " + " + back;
 }
