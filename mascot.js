@@ -6,7 +6,6 @@ request.onload = function (B) {
 	return function () {
 
 		var fileLines = this.responseText.split('\n');
-		console.log(fileLines);
 		for (var i = fileLines.length - 1; i >= 0; i--) {
 			fileLines[i] = fileLines[i].split(',');
 		};
@@ -34,7 +33,6 @@ function mascotMaker(length) {
 }
 
 function mascotDesc() {
-	console.log("rand1="+rand1);
 	var front = nameArray[rand1][2];
 	var back = nameArray[rand2][3] || nameArray[rand2][2];
 
