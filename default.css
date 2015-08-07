@@ -1,10 +1,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
-@import url(http://fonts.googleapis.com/css?family=Cutive);
-@import url(http://fonts.googleapis.com/css?family=Arvo);
-@import url(http://fonts.googleapis.com/css?family=Noticia+Text);
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #89867e;
@@ -18,7 +15,7 @@ h1 {
 }
 
 #mascot {
-	font-family: 'Noticia Text','Avro', 'Cutive', 'Slabo 27px', serif;
+	font-family: 'Roboto Slab', 'Slabo 27px', serif;
 	font-size: 70px;
 	margin-bottom: 10px;
 }
