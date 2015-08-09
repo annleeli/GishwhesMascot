@@ -1,8 +1,7 @@
 # GishwhesMascot
-Mascot Generator
+Randomly generates new Gishwhes mascots
 
-[Google doc](https://docs.google.com/document/d/1oX_4rp4eknSM3L2s4Y8c_MCSJ8xP5Ht9gyyw44HgZtA/edit?usp=sharing)
+## How to Use
+1. Click "Gishwhes Me"
 
-## To Do
-- screencast a video
-- upload to youtube and SUBMIT!
+Tip: View the console for previously generated mascots.
